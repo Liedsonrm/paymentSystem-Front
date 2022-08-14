@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LiMoney</title>
+    
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="../script.js"></script>
+    <script src="../scripts/pagar.js"></script>
+    <link rel="stylesheet" href="../styles/registro.css">
+    <link rel="stylesheet" href="../styles/pagar.css">
+
+
+</head>
+<body>
+    <div id="window">
+        
+    <form id="login">
+        <div id="alert"></div>
+        <div id="done"></div>
+            <div><p id="text">Email do receptor:</p> <input type="text" id="email"></div>
+            <div id="payment"><p>Valor:</p><input type="number" name="value" id="value"></div>
+            <a id="enviar" onclick="pagar()">Pagar</a>
+        </form>
+</div>
+    
+</body>
+
+
+
+</html>

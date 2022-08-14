@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Marker+Hatch&display=swap');
+
+#value{
+    width: 50%;
+}
+
+#payment{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+#done{
+    color: rgb(72, 253, 0);
+    font-family: 'Rubik Marker Hatch', cursive;
+    font-size: 17px;
+}

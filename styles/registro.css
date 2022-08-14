@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+body{
+    background-image: url('../images/christine-roy-ir5MHI6rPg0-unsplash.jpg');
+}
+
+*{
+    font-family:'Share Tech Mono', monospace;
+    font-size: 20px;
+    color: aliceblue;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+#alert{
+    color: rgb(253, 0, 0);
+    font-size: 17px;
+}
+
+#window{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form input{
+    font-size: 17px;
+    width: 40vw;
+    background-color: hsla(0, 100%, 90%, 0);;
+    border: 2px solid aliceblue;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+}
+
+form input:focus{
+    background-color: hsla(0, 0%, 0%, 0.4);
+}
+
+#enviar{
+    background-color: hsla(208, 100%, 97%, 0.4);
+    padding: 7px;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+
+#enviar:hover{
+    background-color: hsl(208, 100%, 97%, 1);
+    color: burlywood;
+    cursor: pointer;
+}
