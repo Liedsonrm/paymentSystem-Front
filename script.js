@@ -1,4 +1,4 @@
-const url = "http://localhost:5500"
+const url = "https://tourmaline-churros-cfc413.netlify.app"
 const urlExterna = "https://5000-liedsonrm-paymentsystem-i91xw3ppber.ws-us60.gitpod.io"
 
 const logar = () => {
